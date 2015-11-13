@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="shortyism_generator">
 
   <head>
     <meta charset="utf-8">
@@ -8,17 +8,17 @@
     <title>Sh*t Shorty Says</title>
   </head>
 
-  <body ng-app="shortyism_generator">
+  <body>
 
-    <div ng-controller="cant_control_shorty" class="flex-container">
+    <div ng-controller="cant_control_shorty as ctrl" class="container">
 
-      <div class="headline"><h1>Draw Closer, Students...</h1></div>
+      <div class="headline"><h1>Lorem Shortyum</h1></div>
 
       <div class="shorty_pic"><img src="images/shorty.jpg" alt="Shorty" /></div>
 
-      <div ng-bind="shortyism" class="show_shortyism">Shortyim goes here</div>
+      <div ng-bind="shortyism" class="show_shortyism"></div>
 
-      <div class="button">MOAR Shorty!</div>
+      <div ng-click="moar_shorty()" class="button">MOAR Shorty!</div>
 
     </div>
 
@@ -26,6 +26,7 @@
     <!-- <a href="#"><span class="github"><img src="images/GitHub-Mark-32px.png" alt="Github" /></span></a> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="app.js" charset="utf-8"></script>
 
   </body>
 

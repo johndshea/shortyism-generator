@@ -2,7 +2,7 @@
   font-family: Helvetica, sans-serif;
 }
 
-.flex-container {
+.container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -15,14 +15,6 @@
   display: inline;
 }
 
-/*.flex-item:nth-child(1) {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
+.shorty_pic img {
+  height: 300px;
 }
-
-.flex-item:nth-child(2) {
-    order: 1;
-    flex: 0 1 auto;
-    align-self: auto;
-}*/
