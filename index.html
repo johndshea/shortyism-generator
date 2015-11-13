@@ -8,19 +8,24 @@
     <title>Sh*t Shorty Says</title>
   </head>
 
-  <body>
+  <body ng-app="shortyism_generator">
 
-    <div class="flex-container">
+    <div ng-controller="cant_control_shorty" class="flex-container">
 
       <div class="headline"><h1>Draw Closer, Students...</h1></div>
 
-      <div class="shorty_pic"><img src="shorty.jpg" alt="Shorty" /></div>
+      <div class="shorty_pic"><img src="images/shorty.jpg" alt="Shorty" /></div>
 
-      <div class="show_shortyism">Shortyims goes here</div>
+      <div ng-bind="shortyism" class="show_shortyism">Shortyim goes here</div>
 
       <div class="button">MOAR Shorty!</div>
 
     </div>
+
+    <!-- Fix this github link -->
+    <!-- <a href="#"><span class="github"><img src="images/GitHub-Mark-32px.png" alt="Github" /></span></a> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
 
   </body>
 
