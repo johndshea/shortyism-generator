@@ -1,5 +1,6 @@
 * {
   font-family: Helvetica, sans-serif;
+  text-align: center;
 }
 
 .container {
@@ -20,6 +21,7 @@
 }
 
 .show_shortyism {
+  text-align: justify;
   font-size: 2rem;
   background-color: lightgray;
   border: 1px solid black;
@@ -28,4 +30,13 @@
   padding: 2rem;
   min-height: 100px;
   min-width: 100px;
+}
+
+.github {
+  margin: 2rem;
+  display: inline;
+}
+
+.github img {
+  height: 32px;
 }
