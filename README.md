@@ -5,3 +5,10 @@ And I started to have doubts. Maybe I'm not as cut out for this as I thought. Ma
 So I decided to go back to the beginning. To the reason I got into this line of work in the first place. Because I really enjoy making shit. The feeling of sitting back and looking at something that wasn't there when you started and saying "I did that thing, and it's pretty cool." It's something that can't be bought or stolen. I needed a hit of that feeling, so I decided to spend Friday evening building something simple and whimsical that would put a smile on my face. And maybe someone else's face too. And do it with the fewest possible lines of code.
 
 This is what I came up with. I hope it makes you smile, even just a little.
+
+TO DO:
+
+* style the app generally
+* set the size of the DIVs so that the button doesn't move around
+* Find an annoying background
+* put a transparent background on the shorty picture
